@@ -11,7 +11,7 @@ public class App {
 
 		// why below 2 provisions are allowed in JAVA, research on this
 
-		ICICIBank icici = new ICICIBank();
+		ICICIBank icici = new ICICIBank(); //arraylist and selenium webdriver
 		IRBI i = new ICICIBank(); // dynamic dispatch
 		// try to call the method using both the ref_variable
 
