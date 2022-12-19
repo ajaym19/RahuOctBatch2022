@@ -70,8 +70,22 @@ public class StringsDemo {
 		System.out.println(sb); //
 		System.out.println(sb.length());
 		System.out.println(sb.reverse());
+		System.out.println(Math.PI);
 		
 		//reverse a string without using inbuilt method
+		//length of the string, charat, for loop
+		
+		String fruitsName = "Apple";
+		int len = fruitsName.length();
+		StringBuffer rev = new StringBuffer();
+		for (int i = len-1; i >=0; i--) {
+			System.out.println(fruitsName.charAt(i));
+			rev.append(fruitsName.charAt(i));
+		}
+		
+		System.out.println(fruitsName);
+		System.out.println(rev);
+		
 		
 		
 	}
